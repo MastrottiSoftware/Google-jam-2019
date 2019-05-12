@@ -3,7 +3,6 @@
 using namespace std;
 
 int main(){
-    cout<<"Scrivi in input tutti i dati:"<<endl;
     string movement="";
     int row;
     int moves;
@@ -20,7 +19,5 @@ int main(){
         }
         cout<<"Case #"<<i+1<<": "<<result<<endl;
     }
-    
-
     return 0;
 }
