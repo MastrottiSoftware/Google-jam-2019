@@ -18,8 +18,9 @@ int main(){
                 value1+=data.at(j);
                 value2+='0';
             }
-
         }
-        cout<<"Case #"<<i+1<<": "<<value1<<" "<<value2<<endl;
+        int val1=stoi(value1);
+        int val2=stoi(value2);
+        cout<<"Case #"<<i+1<<": "<<val1<<" "<<val2<<endl;
     }
 }
