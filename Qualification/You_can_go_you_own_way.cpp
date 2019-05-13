@@ -7,8 +7,8 @@ int main(){
     int row;
     int moves;
     cin>>row;
-    string result="";
     for(int i=0;i<row;i++){
+        string result="";
         cin>>moves;
         cin>>movement;
         for(int j=0;j<movement.length();j++){
